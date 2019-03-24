@@ -97,6 +97,29 @@ namespace NoticiasWebApi.Controllers
         {
             return Ok(_noticiasServicio.ListadoDeAutores());
         }
+
+
+        [Route("procedimientoSinDatos/{edad}/{nombre}")]
+        [HttpGet]
+        public IActionResult ProcedimientoSinDatos(int Edad, string Nombre)
+        {
+            if (_noticiasServicio.ProcedimientoQueNoDevuelveDatos(Edad, Nombre))
+            {
+                return Ok();
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
+
+        [Route("procedimientoConDatos/{edad}/{nombre}")]
+        [HttpGet]
+        public IActionResult ProcedimientoConDatos(int Edad, string Nombre)
+        {
+            return Ok(_noticiasServicio.ProcedimientoConValores(Edad, Nombre));
+        }
     }
 
 }

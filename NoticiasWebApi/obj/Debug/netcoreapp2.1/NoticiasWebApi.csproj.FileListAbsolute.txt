@@ -12,3 +12,17 @@ C:\Users\Tomas Garay\Desktop\Noticias\NoticiasWebApi\NoticiasWebApi\bin\Debug\ne
 C:\Users\Tomas Garay\Desktop\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.RazorTargetAssemblyInfo.cache
 C:\Users\Tomas Garay\Desktop\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.dll
 C:\Users\Tomas Garay\Desktop\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.pdb
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\bin\Debug\netcoreapp2.1\NoticiasWebApi.deps.json
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\bin\Debug\netcoreapp2.1\NoticiasWebApi.runtimeconfig.json
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\bin\Debug\netcoreapp2.1\NoticiasWebApi.runtimeconfig.dev.json
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\bin\Debug\netcoreapp2.1\NoticiasWebApi.dll
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\bin\Debug\netcoreapp2.1\NoticiasWebApi.pdb
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.csprojAssemblyReference.cache
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.csproj.CoreCompileInputs.cache
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.RazorAssemblyInfo.cache
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.RazorAssemblyInfo.cs
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.AssemblyInfoInputs.cache
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.AssemblyInfo.cs
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.RazorTargetAssemblyInfo.cache
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.dll
+D:\Udemy\Ionic y Net Core\Noticias\NoticiasWebApi\NoticiasWebApi\obj\Debug\netcoreapp2.1\NoticiasWebApi.pdb

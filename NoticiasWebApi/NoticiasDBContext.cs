@@ -12,7 +12,9 @@ namespace NoticiasWebApi
          
         public virtual DbSet<Noticia> Noticia { get; set; }
         public virtual DbSet<Autor> Autor { get; set;}
-       
+        public virtual DbSet<Nombres> Nombres { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelB)
         {
             new Noticia.Map(modelB.Entity<Noticia>());
