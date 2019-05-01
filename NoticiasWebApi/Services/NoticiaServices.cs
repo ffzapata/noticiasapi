@@ -2,6 +2,7 @@
 using NoticiasWebApi.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 
 namespace NoticiasWebApi.Services
@@ -100,5 +101,38 @@ namespace NoticiasWebApi.Services
             }
         }   
 
+
+        public bool ProcedimientoQueNoDevuelveDatos(int Edad, string Nombre)
+        {
+            try
+            {
+                string query = "spSinValoresDesdeProcedimiento @Edad={0}, @Nombre='{1}'";
+                query = string.Format(query, Edad, Nombre);
+                _NoticiaDB.Database.ExecuteSqlCommand(query);
+                return true;
+            }
+            catch(Exception ex)
+            {
+                return false;
+            }
+          
+        }
+
+
+        public List<Nombres> ProcedimientoConValores(int Edad, string Nombre)
+        {
+            try
+            {
+                SqlParameter parametroEdad = new SqlParameter("@Edad", Edad);
+                SqlParameter parametroNombre = new SqlParameter("@Nombre", Nombre);
+                List<Nombres> nombresRecibidosDeBaseDeDatos 
+                    = _NoticiaDB.Nombres.FromSql($"spValoresDesdeProcedimiento @Edad, @Nombre", parametroEdad, parametroNombre).ToList();
+                return nombresRecibidosDeBaseDeDatos;
+            }
+            catch (Exception ex)
+            {
+                return new List<Nombres>();
+            }
+        }
     }
 }

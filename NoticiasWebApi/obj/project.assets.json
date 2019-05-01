@@ -12499,11 +12499,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tomas Garay\\Desktop\\Noticias\\NoticiasWebApi\\NoticiasWebApi\\NoticiasWebApi.csproj",
+      "projectUniqueName": "D:\\Udemy\\Ionic y Net Core\\Noticias\\NoticiasWebApi\\NoticiasWebApi\\NoticiasWebApi.csproj",
       "projectName": "NoticiasWebApi",
-      "projectPath": "C:\\Users\\Tomas Garay\\Desktop\\Noticias\\NoticiasWebApi\\NoticiasWebApi\\NoticiasWebApi.csproj",
+      "projectPath": "D:\\Udemy\\Ionic y Net Core\\Noticias\\NoticiasWebApi\\NoticiasWebApi\\NoticiasWebApi.csproj",
       "packagesPath": "C:\\Users\\Tomas Garay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tomas Garay\\Desktop\\Noticias\\NoticiasWebApi\\NoticiasWebApi\\obj\\",
+      "outputPath": "D:\\Udemy\\Ionic y Net Core\\Noticias\\NoticiasWebApi\\NoticiasWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12545,7 +12545,6 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

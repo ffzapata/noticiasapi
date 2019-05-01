@@ -34,12 +34,20 @@ namespace NoticiasWebApi.Controllers
             return Ok(resultado);
         }
 
-        [Route("PorNoticiaID/{NoticiaID}")]
+
+    
+
+        
+
+        //Como Parametro AutorID
+        [Route("PorAutor/{AutorID}")]
         [HttpGet]
-        public IActionResult NoticiaPorID( int NoticiaID)
+        public IActionResult AutorID(int AutorID)
         {
-            return Ok(_noticiasServicio.ObtenerPorID(NoticiaID));
+            return Ok(_noticiasServicio.ObtenerPorID(AutorID));
         }
+
+
 
 
         [Route("Agregar")]
@@ -96,6 +104,29 @@ namespace NoticiasWebApi.Controllers
         public IActionResult ListadoAutores()
         {
             return Ok(_noticiasServicio.ListadoDeAutores());
+        }
+
+
+        [Route("procedimientoSinDatos/{edad}/{nombre}")]
+        [HttpGet]
+        public IActionResult ProcedimientoSinDatos(int Edad, string Nombre)
+        {
+            if (_noticiasServicio.ProcedimientoQueNoDevuelveDatos(Edad, Nombre))
+            {
+                return Ok();
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
+
+        [Route("procedimientoConDatos/{edad}/{nombre}")]
+        [HttpGet]
+        public IActionResult ProcedimientoConDatos(int Edad, string Nombre)
+        {
+            return Ok(_noticiasServicio.ProcedimientoConValores(Edad, Nombre));
         }
     }
 
